@@ -1,0 +1,11 @@
+[build]
+  command = "chmod +x build.sh && ./build.sh"
+  publish = "public"
+
+[context.production.environment]
+  FLUTTER_VERSION = "3.22.0"  # Version Flutter stable
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
