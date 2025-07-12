@@ -1,0 +1,7 @@
+graph TD
+    A[Client] -->|HTTPS/2| B[Netlify Edge]
+    B -->|Cache| C[Flutter Web]
+    B -->|Edge Function| D[PWA Redirect]
+    C --> E[Firebase]
+    C --> F[APIs Externes]
+    D --> G[Analytics]
