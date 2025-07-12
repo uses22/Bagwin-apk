@@ -1,0 +1,9 @@
+
+bagwin-netlify-deploy/
+├── 📁 public/               # Dossier de build web (PWA)
+│   ├── 📄 index.html        # Page d'accueil
+│   ├── 📄 main.dart.js      # Fichier compilé Dart
+│   └── 📁 assets/           # Images/Polices
+├── 📄 netlify.toml          # Configuration Netlify
+├── 📄 build.sh              # Script de build Flutter
+└── 📄 .gitignore            # Fichiers à ignorer
