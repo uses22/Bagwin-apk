@@ -1,0 +1,5 @@
+// Service Worker custom
+workbox.routing.registerRoute(
+  ({request}) => request.destination === 'script',
+  new workbox.strategies.CacheFirst()
+);
