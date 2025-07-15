@@ -1,9 +1,27 @@
-# Sécurité
-firebase-config.json
-google-services.json
-app.config.json
+# Fichier .gitignore optimisé pour BagWin (2025)
 
-# Build
-/web-build/
-/android/
-/ios/
+### Flutter ###
+flutter/
+build/
+.dart_tool/
+.fvm/
+.idea/
+*.iml
+*.iws
+*.swp
+
+### Web ###
+*.js.map
+*.dart.js
+*.info.json
+
+### Environnement ###
+.env
+.env.production
+keys/
+secrets/
+
+### Système ###
+.DS_Store
+Thumbs.db
+*.log
