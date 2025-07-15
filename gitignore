@@ -1,0 +1,9 @@
+# Sécurité
+firebase-config.json
+google-services.json
+app.config.json
+
+# Build
+/web-build/
+/android/
+/ios/
